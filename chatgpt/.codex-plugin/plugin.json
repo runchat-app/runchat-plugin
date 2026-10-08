@@ -1,6 +1,6 @@
 {
-  "name": "app-6a9a702ee0bc81918790b430657bd654",
-  "version": "1.1.0",
+  "name": "runchat",
+  "version": "1.0.0",
   "description": "Build and run node-based design workflows in Runchat, publish them as tools and pages, and script Rhino, Grasshopper and Blender through the Runchat desktop plugins.",
   "author": {
     "name": "Runchat Pty Ltd",
@@ -106,7 +106,7 @@
         "commerce_description": "Runchat does not sell anything inside ChatGPT. Runs spend credits from the user's existing Runchat account; plans and credits are managed on runchat.com."
       },
       "publication": {
-        "release_notes": "Removes the published-tool search and run tools. Grasshopper and ClipChat operations are now individual tools with their own schemas and annotations. Adds icons, an onboarding skill and review test cases."
+        "release_notes": "Initial release: build, run and publish Runchat design workflows, script Rhino and Blender, build Grasshopper definitions, and edit ClipChat recordings."
       }
     }
   }
