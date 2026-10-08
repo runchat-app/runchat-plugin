@@ -1,6 +1,6 @@
 {
   "name": "runchat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build and run node-based design workflows in Runchat, publish them as tools and pages, and script Rhino, Grasshopper and Blender through the Runchat desktop plugins.",
   "author": {
     "name": "Runchat Pty Ltd",
