@@ -1,0 +1,14 @@
+{
+  "name": "runchat",
+  "description": "Runchat design workflows for Claude.",
+  "owner": {
+    "name": "Runchat Pty Ltd",
+    "email": "support@runchat.com"
+  },
+  "plugins": [
+    {
+      "name": "runchat",
+      "source": "./runchat"
+    }
+  ]
+}
