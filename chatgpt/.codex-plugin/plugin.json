@@ -9,7 +9,14 @@
   },
   "homepage": "https://runchat.com",
   "license": "MIT",
-  "keywords": ["design", "architecture", "workflows", "rhino", "grasshopper", "blender"],
+  "keywords": [
+    "design",
+    "architecture",
+    "workflows",
+    "rhino",
+    "grasshopper",
+    "blender"
+  ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
@@ -56,9 +63,9 @@
             },
             {
               "description": "Explain an existing workflow",
-              "prompt": "Open my most recent runchat and explain what it does.",
+              "prompt": "Open my runchat called 'Timber Pavilion Concept' and explain what it does.",
               "tools_triggered": "list_runchats, get_canvas, read_nodes",
-              "expected_behavior": "Finds the newest runchat, reads its nodes and connections, and summarises the workflow step by step with its editor link. Nothing is changed or run."
+              "expected_behavior": "Finds the runchat by name, reads its nodes and connections, and explains what the workflow does. Nothing is changed or run."
             },
             {
               "description": "Build a text workflow",
@@ -70,13 +77,13 @@
               "description": "Generate a design visualisation",
               "prompt": "Make a runchat that renders a concept image of a timber pavilion in a park, run it, and give me the image.",
               "tools_triggered": "create_runchat, create_image_node, run_nodes",
-              "expected_behavior": "Creates a runchat with one media node, states that running it spends credits, runs it, and returns the generated image URL and the editor link."
+              "expected_behavior": "Creates a runchat with a media generation node, runs it (spending a few credits from the test account), and returns the generated image link and the editor link."
             },
             {
               "description": "Publish a private page",
               "prompt": "Create a private one-page website that introduces a design studio called Northlight Studio.",
-              "tools_triggered": "create_artifact",
-              "expected_behavior": "Creates an HTML artifact with private visibility and returns its URL, which only the account owner can open."
+              "tools_triggered": "create_artifact (may first build and preview the page in an HTML code node: create_runchat, create_code_node, run_nodes)",
+              "expected_behavior": "ChatGPT asks for confirmation before publishing, then creates an HTML artifact with private visibility and returns its URL, which only the account owner can open."
             }
           ],
           "negative": [
