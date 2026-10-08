@@ -9,7 +9,7 @@ Runchat is a node-based canvas for design workflows. A saved workflow is a "runc
 
 ## Workflows
 
-1. Find an existing runchat with `list_runchats`, or make one with `create_runchat` (pass `copy` to start from an existing runchat). Every canvas tool takes its id as `runchat_id`.
+1. Find an existing runchat with `list_runchats`, make an empty one with `create_runchat`, or duplicate one with `copy_runchat`. Every canvas tool takes its id as `runchat_id`.
 2. Add nodes with the `create_*_node` tools, wire them with `connect_nodes`, then call `organize_nodes` once.
 3. `run_nodes` executes the workflow and spends the user's Runchat credits. Say what will run before running anything costly.
 4. Share the returned `editor_url` so the user can open the canvas.
