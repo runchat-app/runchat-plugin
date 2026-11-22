@@ -1,6 +1,6 @@
 ---
 name: runchat
-description: Build, run and publish design workflows in Runchat, and drive the user's Rhino, Grasshopper, Blender or ClipChat session through the Runchat connector. Use when the user mentions Runchat, a runchat workflow, or asks to script or inspect a model in a connected desktop app.
+description: Build, run and publish design workflows in Runchat, and drive the user's Rhino, Grasshopper, Revit, ArchiCAD, Blender or ClipChat session through the Runchat connector. Use when the user mentions Runchat, a runchat workflow, or asks to script or inspect a model in a connected desktop app.
 ---
 
 # Working with Runchat
@@ -18,7 +18,7 @@ Load the matching guide with `use_skill` before writing code nodes, prompting im
 
 ## Desktop apps
 
-The `run_rhino_command`, `run_blender_command`, `grasshopper_*`, `take_screenshot` and `clipchat_*` tools reach the user's own desktop app through the Runchat plugin running inside it. They change the user's open document, so describe the change before making it, and check the result with `take_screenshot`. If a tool reports that no app is connected, ask the user to open Runchat inside the app and sign in.
+The `run_rhino_command`, `run_revit_command`, `run_archicad_command`, `run_blender_command`, `grasshopper_*`, `take_screenshot` and `clipchat_*` tools reach the user's own desktop app through the Runchat plugin running inside it. They change the user's open document, so describe the change before making it, and check the result with `take_screenshot`. If a tool reports that no app is connected, ask the user to open Runchat inside the app and sign in.
 
 ## Publishing
 

@@ -1,7 +1,7 @@
 {
   "name": "runchat",
   "version": "1.0.2",
-  "description": "Build and run node-based design workflows in Runchat, publish them as tools and pages, and let ChatGPT act as a CAD agent in Rhino, Grasshopper, Revit, ArchiCAD, SketchUp and Blender through the Runchat desktop plugins.",
+  "description": "Build and run node-based design workflows in Runchat, publish them as tools and pages, and let ChatGPT act as a CAD agent in Rhino, Grasshopper, Revit, ArchiCAD and Blender (plus viewport capture in SketchUp) through the Runchat desktop plugins.",
   "author": {
     "name": "Runchat Pty Ltd",
     "email": "support@runchat.com",
@@ -32,14 +32,14 @@
   "interface": {
     "displayName": "Runchat",
     "shortDescription": "Design workflows and CAD",
-    "longDescription": "Runchat is a node-based canvas for design workflows used by architects, designers and computational designers. Connect your Runchat account to build, edit and run workflows from ChatGPT: chain language models, design-visualisation models and code into a reusable pipeline, then publish it as a tool or a hosted page.\n\nWith the Runchat plugin running in Rhino, Grasshopper, Revit, ArchiCAD, SketchUp or Blender, ChatGPT works as a CAD agent: it reads your open model, runs scripts in it, builds Grasshopper definitions and captures the viewport to check its work. With the ClipChat desktop app, it can edit your screen recordings into finished videos.\n\nRequires a Runchat account. Desktop tools only work while the matching Runchat plugin or ClipChat app is open and signed in to the same account.",
+    "longDescription": "Runchat is a node-based canvas for design workflows used by architects, designers and computational designers. Connect your Runchat account to build, edit and run workflows from ChatGPT: chain language models, design-visualisation models and code into a reusable pipeline, then publish it as a tool or a hosted page.\n\nWith the Runchat plugin running in Rhino, Grasshopper, Revit, ArchiCAD or Blender, ChatGPT works as a CAD agent: it reads your open model, runs scripts in it, builds Grasshopper definitions and captures the viewport to check its work. In SketchUp it can capture the viewport. With the ClipChat desktop app, it can edit your screen recordings into finished videos.\n\nRequires a Runchat account. Desktop tools only work while the matching Runchat plugin or ClipChat app is open and signed in to the same account.",
     "developerName": "Runchat Pty Ltd",
     "category": "Creativity",
     "capabilities": [
       "Build and edit design workflows",
       "Run workflows and return their outputs",
       "Publish workflows as tools and pages",
-      "Script Rhino, Revit, ArchiCAD, SketchUp and Blender",
+      "Script Rhino, Revit, ArchiCAD and Blender",
       "Build Grasshopper definitions",
       "Edit ClipChat screen recordings"
     ],
@@ -116,7 +116,7 @@
         "commerce_description": "Runchat does not sell anything inside ChatGPT. Runs spend credits from the user's existing Runchat account; plans and credits are managed on runchat.com."
       },
       "publication": {
-        "release_notes": "New Runchat logo. Revit, ArchiCAD and SketchUp listed alongside Rhino, Grasshopper and Blender as CAD apps ChatGPT can drive through the Runchat desktop plugins."
+        "release_notes": "New Runchat logo. Revit and ArchiCAD listed alongside Rhino, Grasshopper and Blender as CAD apps ChatGPT can drive through the Runchat desktop plugins, plus SketchUp viewport capture."
       }
     }
   }
